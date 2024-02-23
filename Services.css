@@ -1,0 +1,98 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  button,
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header li {
+    margin-right: 20px;
+  }
+  
+  header a {
+    color: white;
+  }
+  
+  header a:hover {
+    color: #ccc;
+  }
+  
+  /* Services section styles */
+  #services {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  #services article {
+    margin-bottom: 40px;
+  }
+  
+  #services h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #services p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
